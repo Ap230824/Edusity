@@ -4,6 +4,7 @@ import about_img from "../../assets/about.png"
 import play_icon from "../../assets/play-icon.png"
 
 const About = () => {
+  
   return (
     <div className='about'>
         <div className="about-left">
@@ -12,6 +13,7 @@ const About = () => {
         </div>
 
         <div className="about-right">
+          
             <h3>ABOUT UNIVERSITY</h3>
             <h2> Nurturing Tommorow's leaders Today</h2>
 
@@ -26,6 +28,7 @@ const About = () => {
                 <p>
                     Whether you aspire to become a teaacher, administrator, counselor or educational leader , our diverse range of programs offers the perfect pathway to achieve your goals and unlock your full potential in shaping the future of education.
                 </p>
+          
         </div>
     </div>
   )
