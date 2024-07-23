@@ -13,12 +13,18 @@ import Footer from "./Components/Footer/Footer.jsx";
 const App = ()=>{
   return(
     <div>
+      // navbar component
        <Navbar/>
+      
+      // hero component
         <Hero/>
+      
        <div className="container">
-        <Title subTitle='Our PROGRAM' title='What We Offer'/>
+            <Title subTitle='Our PROGRAM' title='What We Offer'/>
        <Programs/>
+         
       <About/>
+         
       <Title subTitle='Gallery' title='Campus Photos'/>
       <Campus/>
 
@@ -26,8 +32,11 @@ const App = ()=>{
       <Testimonials/>
 
       <Title subTitle='Contact us' title='Get in Touch'/>
+         
       <Contact/>
+         
       <Footer/>
+         
        </div>
     </div>
   );
